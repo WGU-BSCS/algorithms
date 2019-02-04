@@ -1,4 +1,6 @@
-﻿# Description of an algorithm
+﻿#This Doc needs a lot of work XD
+ 
+ # Description of an algorithm
 - A name for the alorithm
 - A brief description of the task performed by the algorithm
 - A description of the task performed by the algorithm
