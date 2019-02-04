@@ -6,43 +6,67 @@
 - A description of the task performed by the algorithm
 - A sequence of steps to follow
 
+# Markdown Pseudocode Syntax
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+
+pseudocode
+
+```
 # if-statements
 ## Complexity =
-```If (condition)
-	Step 1
-	Step 2 
-	...
-	Step n
-End-if```
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+//if-statement
+If (condition)
+   Step 1
+   Step 2 
+   ...
+   Step n
+End-if
 
-```If (condition)
+```
+
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+//if-else-statement
+If (condition)
 	Steps
 Else
 	Steps
-End-if```
+End-if
+
+```
 
 # for-loop
 ## Complexity =
-```For i = s to t
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+
+For i = s to t
     Step 1
     Step 2
     . . .
     Step n
-End-for```
+End-for
+
+```
 
 # while-loop
 ### Complexity =
-```While ( condition )
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+
+While ( condition )
     Step 1
     Step 2
     . . .
     Step n
-End-while```
+End-while
+
+```
 
 # nested loops
 ## Complexity = n^num-of-nested loops
 
-```//set your counter/iterator
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+
+//set your counter/iterator
 count := 0
 
 //loop 1
@@ -53,26 +77,34 @@ For i = 1 to 3
             count := count + i ⋅ j
       End-for
 
-End-for```
+End-for
+
+```
 
 # Fibonacci-1
 ## Complexity =
-```F[1] :=1
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+
+F[1] :=1
 F[2]:=1
 For i:=3 to n
     F[i] := F[i-1]+F[i- 2]
 End-for
-Return (F[n])```
+Return (F[n])
+
+```
 
 # Bubble-Sort
 ## Complexity = n^2 <-- not good for very large sets of data!
 ### Uses:
-[Stack Overflow](https://stackoverflow.com/questions/276113/what-is-a-bubble-sort-good-for)
-	- Not used widely in "real world" situations
-	- Very fast sorting of extremely small/nearly sorted set of data 
-	- insertion sort will usually be better for same processes
-	- more of an instroductory sorting algorithm for students
-```For i: = 1 to n - 1
+1. [Stack Overflow](https://stackoverflow.com/questions/276113/what-is-a-bubble-sort-good-for)
+- Not used widely in "real world" situations
+- Very fast sorting of extremely small/nearly sorted set of data 
+- insertion sort will usually be better for same processes
+- more of an introdution to sorting algorithms for students
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+
+For i: = 1 to n - 1
     For j: = i + 1 to n
         If a[i] < a[j]
             b: = a[i]
@@ -81,13 +113,19 @@ Return (F[n])```
         End-if
     End-for
 End-for
-Return (a[1]....a[n])```
+Return (a[1]....a[n])
+
+```
 
 # Linear-Search
 ## Compelxity = n
 
-```For i: = 1 to n
+```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
+
+For i: = 1 to n
     If a[i]: = V, return (true)
 End-for
-Return(false)```
+Return(false)
+
+```
 
