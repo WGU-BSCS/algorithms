@@ -10,19 +10,15 @@ Algorithms inspired by the course material.
 
 # Layout for .md algorithm files
  - *Be sure to site all of your resources!!*
- - Copy and paste the code below into your new algorithm-name.md file
  - Make sure your algorithm is within the correct class folder within this repository
- - If you see any typos or issues with any of the algorithms *please open an [issue](https://github.com/WGU-BSCS/algorithms/issues for it*
- - These files are in Markdown. Here is the [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+ - If you see any typos or issues with any of the algorithms please open an [issue](https://github.com/WGU-BSCS/algorithms/issues) for it
+ - These files are in Markdown. Here is the [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+ 
+## Formatting for every algorithm-name.md file is provided below
+  - From within your editor of choice copy and paste the code below into your new algorithm-name.md file
 ----------------------------------------------------------
 
-<!-- Markdown Pseudocode Syntax
-```{r, tidy=FALSE, eval=FALSE, highlight=FALSE }
-
-pseudocode
-
-```
---> 
+<!-- COPY AND PASTE STARTS HERE -->
 
 # Algorithm Title
 ## Complexity = 
@@ -37,6 +33,8 @@ pseudocode
 pseudocode goes here
 
 ```
+
+<!-- COPY AND PASTE ENDS HERE -->
 
 ----------------------------------------------------------
 
