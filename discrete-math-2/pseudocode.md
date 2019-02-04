@@ -6,41 +6,41 @@
 
 # if-statements
 ## Complexity =
-If (condition)
+```If (condition)
 	Step 1
 	Step 2 
 	...
 	Step n
-End-if
+End-if```
 
-If (condition)
+```If (condition)
 	Steps
 Else
 	Steps
-End-if
+End-if```
 
 # for-loop
 ## Complexity =
-For i = s to t
+```For i = s to t
     Step 1
     Step 2
     . . .
     Step n
-End-for
+End-for```
 
 # while-loop
 ### Complexity =
-While ( condition )
+```While ( condition )
     Step 1
     Step 2
     . . .
     Step n
-End-while
+End-while```
 
 # nested loops
 ## Complexity = n^num-of-nested loops
 
-//set your counter/iterator
+```//set your counter/iterator
 count := 0
 
 //loop 1
@@ -51,16 +51,16 @@ For i = 1 to 3
             count := count + i ⋅ j
       End-for
 
-End-for
+End-for```
 
 # Fibonacci-1
 ## Complexity =
-F[1] :=1
+```F[1] :=1
 F[2]:=1
 For i:=3 to n
     F[i] := F[i-1]+F[i- 2]
 End-for
-Return (F[n])
+Return (F[n])```
 
 # Bubble-Sort
 ## Complexity = n^2 <-- not good for very large sets of data!
@@ -70,7 +70,7 @@ Return (F[n])
 	- Very fast sorting of extremely small/nearly sorted set of data 
 	- insertion sort will usually be better for same processes
 	- more of an instroductory sorting algorithm for students
-For i: = 1 to n - 1
+```For i: = 1 to n - 1
     For j: = i + 1 to n
         If a[i] < a[j]
             b: = a[i]
@@ -79,12 +79,12 @@ For i: = 1 to n - 1
         End-if
     End-for
 End-for
-Return (a[1]....a[n])
+Return (a[1]....a[n])```
 
 # Linear-Search
 ## Compelxity = n
 
-For i: = 1 to n
+```For i: = 1 to n
     If a[i]: = V, return (true)
 End-for
-Return(false)
+Return(false)```
