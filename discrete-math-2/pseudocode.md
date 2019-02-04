@@ -89,8 +89,5 @@ Return (a[1]....a[n])```
 ```For i: = 1 to n
     If a[i]: = V, return (true)
 End-for
-<<<<<<< HEAD
 Return(false)```
-=======
-Return(false)
->>>>>>> refs/remotes/origin/master
+
