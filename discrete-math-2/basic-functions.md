@@ -1,5 +1,5 @@
 ﻿# Description of an algorithm
-- A name for the alorithm
+- A name for the algorithm
 - A brief description of the task performed by the algorithm
 - A description of the task performed by the algorithm
 - A sequence of steps to follow
